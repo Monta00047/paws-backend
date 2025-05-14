@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_page_testimonies",
+  "info": {
+    "displayName": "testimony"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "fullname": {
+      "type": "string"
+    }
+  }
+}

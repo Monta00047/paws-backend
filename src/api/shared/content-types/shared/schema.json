@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "shareds",
+  "info": {
+    "singularName": "shared",
+    "pluralName": "shareds",
+    "displayName": "shared",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contacts": {
+      "displayName": "contact us",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.contact-us"
+    },
+    "socialMedia": {
+      "displayName": "social media",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.social-media"
+    }
+  }
+}

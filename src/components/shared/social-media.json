@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_social_medias",
+  "info": {
+    "displayName": "social media"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

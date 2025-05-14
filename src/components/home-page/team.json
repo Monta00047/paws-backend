@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_page_teams",
+  "info": {
+    "displayName": "team"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "item": {
+      "displayName": "teamItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.team-item"
+    }
+  }
+}
