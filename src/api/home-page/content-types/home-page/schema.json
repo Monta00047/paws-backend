@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "homePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "displayName": "hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.hero"
+    },
+    "services": {
+      "displayName": "services",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.services"
+    },
+    "team": {
+      "displayName": "team",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.team"
+    },
+    "testimonials": {
+      "displayName": "testimonails",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.testimonails"
+    },
+    "bestCare": {
+      "displayName": "best care",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.best-care"
+    },
+    "videoSection": {
+      "displayName": "videoSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.video-section"
+    },
+    "FAQ": {
+      "displayName": "faq",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.faq"
+    }
+  }
+}
